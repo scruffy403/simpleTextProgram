@@ -13,23 +13,6 @@ def sentence_maker(phrase):
 
 results = []
 
-# user_input = input("Say something: ")
-
-# if len(user_input) == 0:
-#     print("oops!")
-# else:
-#     while True:
-
-#         if user_input == "\end":
-#             break
-#         else:
-#             results.append(sentence_maker(user_input))
-
-# if len(results) == 0:
-#     print("Program complete")
-# else:
-#     print(" ".join(results))
-
 results = []
 while True:
     user_input = input("Say something: ")
@@ -41,4 +24,4 @@ while True:
     else:
         results.append(sentence_maker(user_input))
 
-print(" ".join(results))
+print("\n".join(results))
