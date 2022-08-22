@@ -1,5 +1,3 @@
-from pynput.keyboard import Key, Listener
-
 def sentence_maker(phrase):
     capitalized = phrase.capitalize()
     interogatives = ("how", "why", "how", "did you", "can you", "what")
@@ -10,12 +8,10 @@ def sentence_maker(phrase):
         return "{}.".format(capitalized)
 
 
-
-results = []
-
 results = []
 while True:
     user_input = input("Say something: ")
+
 
     if user_input == "\end":
         break
